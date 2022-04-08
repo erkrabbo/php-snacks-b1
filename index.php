@@ -81,7 +81,7 @@
         <?php
             foreach($frasi as $frase){
                 $frase = trim($frase);
-                echo "<li>$frase</li>";
+                echo "<li>$frase<hr></li>";
             }; 
         ?>
         </ul>
