@@ -71,5 +71,20 @@
         ?>
         </ul>
     </section>
+    <section>
+        <h2>Snack 5</h2>
+        <p>
+            Prendere un paragrafo abbastanza lungo, contenente diverse frasi. Prendere il paragrafo e suddividerlo in tanti paragrafi. Ogni punto un nuovo paragrafo.
+        </p>
+        <h2>Lista(ogni frase è un li)</h2>
+        <ul>
+        <?php
+            foreach($frasi as $frase){
+                $frase = trim($frase);
+                echo "<li>$frase</li>";
+            }; 
+        ?>
+        </ul>
+    </section>
 </body>
 </html>
