@@ -76,7 +76,9 @@
         <p>
             Prendere un paragrafo abbastanza lungo, contenente diverse frasi. Prendere il paragrafo e suddividerlo in tanti paragrafi. Ogni punto un nuovo paragrafo.
         </p>
-        <h2>Lista(ogni frase è un li)</h2>
+        <h3>Testo di partenza</h3>
+        <p><?= $testo_lungo ?></p>
+        <h3>Lista(ogni frase è un li)</h3>
         <ul>
         <?php
             foreach($frasi as $frase){
